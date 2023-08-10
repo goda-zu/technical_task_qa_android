@@ -8,6 +8,7 @@ with a collective goal of getting your tasks completed :sunny:
 This challenge includes:
 - 2 main sections: Theoretical, Manual testing  
 - 1 bonus: Automated testing 
+
 execution may take up to 4 hours
 
 Let’s start!
