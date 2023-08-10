@@ -1,12 +1,13 @@
-## Boozt QA Technical challenge
+## Boozt QA practical challenge
 
 Congratulations, you have reached the next stage which is solving a Boozt practical challenge.
 
 During the challenge execution, we want you to imagine yourself as a member of our team,
 with a collective goal of getting your tasks completed :sunny:
 
-This challenge includes 3 sections:
-Theoretical, Manual testing and Automated testing 
+This challenge includes:
+- 2 main sections: Theoretical, Manual testing  
+- 1 bonus: Automated testing 
 execution may take up to 4 hours
 
 Let’s start!
