@@ -37,8 +37,14 @@ here is how the feature is look:
 
 ## Manual part
 
+For that part, you will need Android Studio to build the app for testing 
+(this is the preferable way to get the app, but if it is will be unachievable, you could download the app apk from [here](https://drive.google.com/file/d/1pDaCda8w8bcnBjMT2YMnPkQmQ59yxy_y/view?usp=drive_link))
 
+any text editor or any tools which allowed you to provide us with the results of testing
+
+##
 *Description:* 
+
 We are in the middle of the sprint and the following 2 user stories were just moved to the QA
 a testing column on our Jira board:
 
@@ -73,20 +79,20 @@ Scenarios:
 Scenarios:
 
 1. **Cats images are loaded**
-   _ GIVEN: the user successfully logged in to the app
-   _ WHEN: there is an internet connection
-   _ THEN: images are displayed in the rows on the list (row can have one or more images scrollable
+   - GIVEN: the user successfully logged in to the app
+   - WHEN: there is an internet connection
+   - THEN: images are displayed in the rows on the list (row can have one or more images scrollable
    horizontally)
 
 2. **Failed to load images**
-   _ GIVEN: the user successfully logged in to the app
-   _ WHEN: there is no internet connection
-   _ THEN: “failed to load cats breeds” error message is displayed and the Retry button
+   - GIVEN: the user successfully logged in to the app
+   - WHEN: there is no internet connection
+   - THEN: “failed to load cats breeds” error message is displayed and the Retry button
 
 3. **Cats breed card is clicked**
-   _ GIVEN: the cat's images are successfully loaded on the screen
-   _ WHEN: the user clicks one of the images
-   _ THEN: the user is navigated to the cat breed details screen with clicked breed info loaded
+   - GIVEN: the cat's images are successfully loaded on the screen
+   - WHEN: the user clicks one of the images
+   - THEN: the user is navigated to the cat breed details screen with clicked breed info loaded
 
 ##
 
