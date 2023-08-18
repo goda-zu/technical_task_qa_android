@@ -6,8 +6,7 @@ During the challenge execution, we want you to imagine yourself as a member of o
 with a collective goal of getting your tasks completed :sunny:
 
 This challenge includes:
-- 2 main sections: Theoretical, Manual testing  
-- 1 bonus: Automated testing 
+3 main sections: Theoretical, Manual testing and Automated testing 
 
 execution may take up to 4 hours
 
@@ -17,19 +16,19 @@ Let’s start!
 
 ## Theoretical part
 
-For that part, you don't need any additional devices or apps 
+For this part, you don't need any additional devices or apps 
 only your knowledge and any text editor
 
 ##
 
 *Description:* 
-You are got a totally new *Login* feature inside of our Android app, 
+You have gotten a totally new *Login* feature inside of our Android app, 
 please describe how you will test it 
 (it is enough to provide a test plan without concrete test cases)
 
 ##
 
-here is how the feature is look:
+here is how the feature looks:
 
 <img src="login_design.png" alt="drawing" width="200"/>
 
@@ -37,16 +36,16 @@ here is how the feature is look:
 
 ## Manual part
 
-For that part, you will need Android Studio to build the app for testing 
-(this is the preferable way to get the app, but if it is will be unachievable, you could download the app apk from [here](https://drive.google.com/file/d/1pDaCda8w8bcnBjMT2YMnPkQmQ59yxy_y/view?usp=drive_link))
+For this part, you will need:
+- Your preferred tool to provide us with the results
+- Android Studio to build the app (this is the preferred way to get the app, but it is also possible to download the apk from [here](https://drive.google.com/file/d/1pDaCda8w8bcnBjMT2YMnPkQmQ59yxy_y/view?usp=drive_link))
 
-any text editor or any tools which allowed you to provide us with the results of testing
 
 ##
 *Description:* 
 
 We are in the middle of the sprint and the following 2 user stories were just moved to the QA
-a testing column on our Jira board:
+testing column on our Jira board:
 
 ##
 
@@ -54,7 +53,7 @@ a testing column on our Jira board:
 
 Scenarios:
 
-1. **User opens the Android app first time (when not logged in yet)**
+1. **User opens the app**
    - GIVEN: the user opens the app for the first time (when not logged in yet)
    - THEN: login screen with a user name and password entries and login button is displayed
 2. **User login failed**
@@ -65,15 +64,15 @@ Scenarios:
 3. **User login succeed (credentials provided below)**
    - GIVEN: the user provided the right username and password
    - WHEN: login button is clicked
-   - THEN: the user is taken to the news screen
+   - THEN: the user is taken to the cat breeds screen
 
-4. **User opens app next time (when previously logged in)**
+4. **User opens the app**
    - GIVEN: the user opens the app next time (when previously logged in)
-   - THEN: the user is taken straight to the news screen
+   - THEN: the user is taken straight to the cat breeds screen
 
 ##
 
-#### Story 2: As a user, I want to see cats breeds
+#### Story 2: As a user, I want to see cat breeds
 
 
 Scenarios:
@@ -81,15 +80,14 @@ Scenarios:
 1. **Cats images are loaded**
    - GIVEN: the user successfully logged in to the app
    - WHEN: there is an internet connection
-   - THEN: images are displayed in the rows on the list (row can have one or more images scrollable
-   horizontally)
+   - THEN: images are displayed in the rows on the list (a row can have one or more images that are horizontally scrollable)
 
 2. **Failed to load images**
    - GIVEN: the user successfully logged in to the app
    - WHEN: there is no internet connection
-   - THEN: “failed to load cats breeds” error message is displayed and the Retry button
+   - THEN: “failed to load cat breeds” error message and a Retry button displayed 
 
-3. **Cats breed card is clicked**
+3. **Cat breed card is clicked**
    - GIVEN: the cat's images are successfully loaded on the screen
    - WHEN: the user clicks one of the images
    - THEN: the user is navigated to the cat breed details screen with clicked breed info loaded
@@ -103,15 +101,15 @@ Scenarios:
 
 ##
 
-Now it’s your turn. You need to verify if we can move these two tickets to the Done column on our Jira
+Now it’s your turn. You need to verify if we can move these two user stories to the Done column on our Jira
 board.
-We expect that if you will find any bugs, they will be reported in clear form
+We expect that if you find any bugs, they will be reported in clear form
 
 ---
 
-## Automated part
+## Automatomation
 
-In this part, we are expected that you will automate at least one scenario from User stories in the Manual part
+In this part, automate at least one scenario from User stories in the Manual part
 Recommendation: take the User story 1 and scenario 3
 
 If you will cover more than 1 Scenario it will be a bonus
