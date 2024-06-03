@@ -114,6 +114,8 @@ Recommendation: take the User story 1 and scenario 3
 
 If you will cover more than 1 Scenario it will be a bonus
 
+fork of this repository and open the PR with your solution into the main branch 
+
 ##
 
 *Description:*
