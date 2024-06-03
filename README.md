@@ -23,8 +23,7 @@ only your knowledge and any text editor
 
 *Description:* 
 You have gotten a totally new *Login* feature inside of our Android app, 
-please describe how you will test it 
-(it is enough to provide a test plan without concrete test cases)
+please describe how you will test it
 
 ##
 
